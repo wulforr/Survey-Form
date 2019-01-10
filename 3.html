@@ -1,0 +1,65 @@
+<html>
+  <head>
+    <title>Project2</title>
+    <link rel="stylesheet" href=3.css>
+  </head>
+  <body>
+    <h1 id="title" class="center">Survey Form</h1>
+    <div class="container">
+    <p id="description" class="center">A survey so that we can improve ourselves!!!</p>
+    <form id="survey-form" method="POST" action="">
+      <div  class="label1">
+        <label id="name-label" for="name">Name:</label>
+      <input type="text" id="name" class="a1" placeholder="Enter your name" required>
+        </div>
+      <br>
+      <div class="label1">
+        <label id="email-label" for="email">Email:</label>
+      <input type="email" id="email" class="a1" placeholder="Enter your email" required>
+      </div>
+        <br>  
+      <div class="label1">
+          <label id="number-label" >Age:</label>
+      <input type="number" id="number" class="a1" placeholder="Age" min ="1" max="50" required>
+        </div>
+        <br>  
+      <div class="label1">
+            <label>What do u like most about Freecodecamp:</label>
+      <select name="" id="dropdown">
+        <option disabled value>Select an option</option>
+        <option value="">Challenges</option>
+        <option value="">Projects</option>
+        <option value="">Open-Source</option>
+        <option value="">Community</option>
+      </select>
+        </div>
+      <br>
+      <div class="label1">
+        <label>Select your gender:</label><br>
+     <div class="radio1"> <input type="radio" name="form" value="1">Male</div><br>
+      <div class="radio1"><input type="radio" name="form" value="1">Female</div><br>
+        <div class="radio1"><input type="radio" name="form" value="1">Other</div>
+      </div>
+        <br>
+      
+      <div class="label1">
+        <label>What Should we improve in future (Check all that apply) :</label><br>
+          <input type="checkbox" value="1">Front-end Project<br>
+  <input type="checkbox" value="2">Back-end Project<br>
+      <input type="checkbox" value="3">Open Source Community<br>
+            
+      <input type="checkbox" value="4">Videos<br>
+    
+            <input type="checkbox" value="5">Meetups<br>
+    
+        <input type="checkbox" value="6">Additional Courses</div><br>
+      <div class="label1">
+        <label for="">Any Comments or Suggestion</label><br>
+      <textarea placeholderb = "Enter your comment here">
+         </textarea></div>
+          <button id="submit">submit</button>
+    </form>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  </body>
+</html>
+
